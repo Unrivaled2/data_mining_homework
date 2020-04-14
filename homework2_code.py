@@ -26,7 +26,7 @@ def normfun(x,mu,sigma):
     return pdf
 
 if __name__ == "__main__":
-    x = []
+    x = [] 
     with open("./iris.txt",'r') as f:
         line = f.readline()
         while line:
