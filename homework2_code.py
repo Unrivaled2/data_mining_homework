@@ -39,7 +39,7 @@ if __name__ == "__main__":
     mean = np.mean(x)
     std = np.std(x)
     print("均值： " + str(mean))
-    print("方差： " + str(std))
+    print("标准差： " + str(std))
 
     # 设定 x 轴前两个数字是 X 轴的开始和结束，第三个数字表示步长，或者区间的间隔长度
     x = np.arange(1, 10, 0.1)
