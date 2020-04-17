@@ -47,7 +47,7 @@ if __name__ == "__main__":
     y = normfun(x, mean, std)
     plt.plot(x, y)
 
-    plt.title('norm distribution with mean = ' + str(mean)[0:6]+ ", std = " + str(std)[0:6])
+    plt.title('norm distribution with mean = ' + str(mean)[0:6]+ ", var = " + str(std*std)[0:6])
     plt.xlabel('x')
     plt.ylabel('Probability')
     # 输出
